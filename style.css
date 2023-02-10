@@ -1,0 +1,35 @@
+body{
+    background: #E1F0FA;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.navbar{
+    width: 1440px;
+    height: 90px;
+    background-color: #E1F0FA ;
+    color: black;
+    text-decoration: none;
+    
+}
+.navbar a{
+    font-family: Montserrat;
+    font-weight:400;
+    font-size: 18px;
+    color: #000;
+    margin-left: 20px;
+    text-decoration-line: none;
+    position: flex;
+    transition: .2s;
+}
+
+.navbar .mennu:hover{
+    color:#3639ff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img{
+    position: absolute;
+}
