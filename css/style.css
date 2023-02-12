@@ -1,0 +1,642 @@
+body{
+    background: #E1F0FA;
+    font-family: Montserrat;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.navbar{
+    position: sticky-top;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    height: 97px;
+    background-color: #21409A; 
+    color: #fff;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.navbar a{
+    font-family: Montserrat;
+    font-weight:400;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 0px;
+    text-decoration-line: none;
+    position: flex;
+    transition: .2s;
+    padding:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navbar .mennu:hover{
+    background-color: #fff;
+    color: #21409A;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration-line:inherit;
+}
+.navbar .contact{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    background-color: #ED4D09;
+    color: #fff;
+    float: right;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar .contact:hover{
+    background-color: #fff;
+    color: #ED4D09;
+    font-weight: 500;
+}
+
+
+.img .icon{
+    position: absolute;
+    top: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    
+    color: #49423F;
+}
+
+.img .icon a{
+    color: #49423F;
+    position: absolute;
+    border-radius: 20px;
+    padding: 15px;
+    color: #E1F0FA;
+    text-decoration-line: none;
+    background-color: #21409A;
+    
+}
+
+.img .icon a:hover{
+    color: #21409A;
+    background-color: #fff;
+}
+.img{
+    position: absolute;
+    top: 90px;
+}
+
+.one {
+    position: absolute;
+    top: 1079px;
+}
+.one h1{
+    height: 51px;
+    width: 100vw;
+    text-align: center;
+    color: #21409A;
+}
+.one .oneone p{
+    text-align: left;
+    color: #21409A;
+    margin-left: 20px;
+}
+
+.one .oneone span {
+   position: absolute;
+   right: 50px;
+   top:90px;
+}
+
+.brain p{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    padding-inline: 10px;
+    font-size: 24px;
+    color: #21409A;
+
+
+}
+
+.brain .brainimg{
+    height: 350px;
+    width: 609px;
+    margin-left: 30px;
+}
+
+.brain span {
+    position: absolute;
+    top:120px;
+    left:690px;
+    height: 450px;
+    width: 0px;
+    border:0.5px solid #000;
+    margin-left: 15px;
+}
+
+
+.about{
+    position: absolute;
+    top: 1850px;
+}
+
+.about .mission {
+    height: 350px;
+    width: 517px;
+    background-color: #fff;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.about .mission h1{
+    text-align: center;
+}
+
+.about .mission p{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.about .img{
+    position: absolute;
+    top: 0px;
+    width: 476px;
+    height: 468px;
+    left: 836px;
+    
+}
+
+.about .abt{
+    
+    top:0px;
+    width: 476px;
+    height: 468px;
+    left: 836px;
+
+}
+
+
+.program{
+    position: absolute;
+    top: 2400px;
+    width: 100vw;
+}
+
+.program p {
+    height: 10px;
+    width: 100vw;
+    text-align: center;
+    font-size:42px;
+}
+
+.program .play{
+    position: flex;
+    margin-left: 50px;
+    color: #21409A;
+}
+
+.program .s{
+    height: 428px;
+    width: 281px;
+    background-color: aqua;
+}
+
+.program .play{
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    height: 428px;
+    width: 281px;
+    margin-left: 30px;
+    color: #21409A;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.program .play:hover{
+    margin-top:150px;
+}
+.program .pla{
+    position: absolute;
+    top:0px;
+    width: 281px;
+    height: 235px;
+}
+.program .play a{
+    position: absolute;
+    top:240px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.program .play span{
+    position: absolute;
+    top:280px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A81E3C;
+}
+.program .play p{
+    position: absolute;
+    top: 215px;
+    left:40px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+
+ 
+.program .nursery{
+    position: absolute;
+    margin-top: 100px;
+    height: 428px;
+    width: 281px;
+    margin-left: 361px;
+    color: #21409A;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.program .nursery:hover{
+    margin-top:50px;
+}
+.program .nur{
+    position: absolute;
+    top:0px;
+    width: 281px;
+    height: 235px;
+}
+.program .nursery a{
+    position: absolute;
+    top:240px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.program .nursery span{
+    position: absolute;
+    top:280px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A81E3C;
+}
+.program .nursery p{
+    position: absolute;
+    top: 215px;
+    left:40px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.program .junior{
+    position: absolute;
+    margin-top: 100px;
+    height: 428px;
+    width: 281px;
+    margin-left: 692px;
+    background-color: #ffffff;
+    color: #21409A;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.program .junior:hover{
+    margin-top:150px;
+}
+.program .jun{
+    position: absolute;
+    top:0px;
+    width: 281px;
+    height: 235px;
+}
+.program .junior a{
+    position: absolute;
+    top:240px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.program .junior span{
+    position: absolute;
+    top:280px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A81E3C;
+}
+.program .junior p{
+    position: absolute;
+    top: 215px;
+    left:40px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+
+.program .senior{
+    position: absolute;
+    margin-top: 100px;
+    height: 428px;
+    width: 281px;
+    margin-left: 1023px;
+    color: #21409A;
+    background-color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.program .senior:hover{
+    margin-top:50px;
+}
+.program .sen{
+    position: absolute;
+    top:0px;
+    width: 281px;
+    height: 235px;
+}
+.program .senior a{
+    position: absolute;
+    top:240px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 32px;
+    
+}
+.program .senior span{
+    position: absolute;
+    top:280px;
+    height: 50px;
+    width: 280px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A81E3C;
+}
+.program .senior p{
+    position: absolute;
+    top: 215px;
+    left:40px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+
+.application{
+    position: absolute;
+    top:3150px;
+    width: 100vw;
+}
+.application h1{
+    margin-left: 159px;
+}
+.application .apple{
+    position: absolute;
+    top: 30;
+    margin-left: 159px;
+    height: 676px;
+    width: 1122px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.application .apple h1{
+    position: absolute;
+    top: 38px;
+    left: 280px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.application .apple a{
+    position: absolute;
+    top: 200px;
+    left: 704px;
+    font-size: 24px;
+}
+.application .apple span{
+    position: absolute;
+    left: 136px;
+    top: 503px;
+    font-size: 24px;
+}
+
+.application .mob{
+    position: absolute;
+    top: 108px;
+    left: 142px;
+    height: 349.59px;
+    width: 161.29px;
+}
+.application .log{
+    position: absolute;
+    top:350px;
+    left: 802px;
+    height: 290px;
+    width: 222px;
+}
+
+
+.infra{
+    position: absolute;
+    top: 3952px;
+}
+
+.infra h1{
+    position: absolute;
+    left: 177px;
+}
+
+.infra .Transport{
+    position: absolute;
+    top: 80px;
+    left: 182px;
+    text-align: center;
+    height: 299px;
+    width: 330px;
+    background-color: #fff;
+
+}
+
+.infra .Transport h1{
+    position: absolute;
+    left: 100px;
+    text-align: center;
+}
+.infra .Transport p{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    height: 170px;
+    width: 242px;
+}
+
+.infra .Library{
+    position: absolute;
+    top: 80px;
+    left: 575px;
+    text-align: center;
+    height: 299px;
+    width: 330px;
+    background-color: #fff;
+}
+.infra .Library h1{
+    position: absolute;
+    left: 100px;
+    text-align: center;
+}
+.infra .Library p{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    height: 170px;
+    width: 242px;
+}
+.infra .Physical{
+    position: absolute;
+    top: 80px;
+    left: 969px;
+    text-align: center;
+    height: 299px;
+    width: 330px;
+    background-color: #fff;
+}
+.infra .Physical h1{
+    position: absolute;
+    left: 100px;
+    text-align: center;
+}
+.infra .Physical p{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    height: 170px;
+    width: 242px;
+}
+
+
+.quick{
+    position: absolute;
+    top: 4350px;
+    height: 617px;
+    width: 100vw;
+    background-color: #21409A;color: #fff;
+}
+.quick .sr a{
+    position: absolute;
+    left: 138px;
+    top:127px;
+    font-size: 60px;
+}
+.quick .sr span{
+    position: absolute;
+    left: 219px;
+    top: 161px;
+    font-size: 24px;
+}
+.quick .sr p{
+    position: absolute;
+    left: 145px;
+    top:228px;
+}
+.quick .links p{
+    position: absolute;
+    top: 122px;
+    left: 524px;
+    font-size: 24px;
+
+}
+.quick .links a{
+    position: absolute;
+    top: 199px;
+    left: 527px;
+    text-decoration-line: none;
+    color: #fff;
+
+}
+.quick .links span{
+    position: absolute;
+    top: 178px;
+    left: 524px;
+    width: 50px;
+    border:3px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+.quick .enquiry p{
+    position: absolute;
+    top: 122px;
+    left: 834px;
+    font-size: 24px;
+
+}
+.quick .enquiry a{
+    position: absolute;
+    top: 199px;
+    left: 834px;
+    color: #fff;
+
+}
+.quick .enquiry span{
+    position: absolute;
+    top: 178px;
+    left: 834px;
+    width: 50px;
+    border:3px solid #ffffff;
+    border-radius: 20px;
+
+}
+
+.quick .education p{
+    position: absolute;
+    top: 122px;
+    left: 1144px;
+    font-size: 24px;
+
+}
+.quick .education a{
+    position: absolute;
+    top: 200px;
+    left: 1144px;
+
+}
+.quick .education span{
+    position: absolute;
+    top: 178px;
+    left: 1144px;
+    width: 50px;
+    border:3px solid #ffffff;
+    border-radius: 20px;
+
+}
