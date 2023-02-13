@@ -490,7 +490,14 @@ body{
     height: 299px;
     width: 330px;
     background-color: #fff;
+    border-radius: 20px;
 
+}
+.infra .Transport:hover{
+    cursor: pointer;
+    top: 76px;
+    left:178px;
+    box-shadow: 4px 4px 0 0 #837d7d;
 }
 
 .infra .Transport a{
@@ -517,6 +524,13 @@ body{
     height: 299px;
     width: 330px;
     background-color: #fff;
+    border-radius: 20px;
+}
+.infra .Library:hover{
+    cursor: pointer;
+    top: 76px;
+    left:571px;
+    box-shadow: 4px 4px 0 0 #837d7d;
 }
 .infra .Library a{
     position: absolute;
@@ -539,11 +553,15 @@ body{
     text-align: center;
     height: 299px;
     width: 330px;
+    border-radius: 20px;
+    
     background-color: #fff;
 }
 .infra .Physical:hover{
     cursor: pointer;
-    zoom: 1;
+    top: 76px;
+    left:965px;
+    box-shadow: 2px 2px 0 0 #837d7d;
 }
 .infra .Physical a{
     position: absolute;
@@ -658,24 +676,9 @@ body{
 }
 .logos{
     position: absolute;
-    top: 10px;
-}
-.logos .whats{
-    position: absolute;
-    top: 500px;
-    right: 10px;
-    color: #000;
-}
+    width: 32.44px;
+    height: 35.64px;
+    left: 1400px;
+    top: 283.36px;
 
-.logos .insta{
-    position: absolute;
-    top: 600px;
-    right: 20px;
-    color: #000;
-}
-
-.logos .mail{
-    position: absolute;
-    top: 400px;
-    left: 200px;
 }
